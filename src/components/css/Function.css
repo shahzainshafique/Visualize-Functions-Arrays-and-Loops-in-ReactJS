@@ -1,28 +1,40 @@
-.containers {
-  padding-top: 100px;
+.container {
+  padding-top: 50px;
   margin-top: -7px;
-  background: #b3f1fc;
-  height: 800px;
+  background: #9bdfff;
+  height: 650px;
   font-size: 17px;
 }
-.contents {
+.content {
   width: 600px;
-  height: 430px;
+  height: 450px;
   margin-left: 30%;
   display: flex;
-  padding-top: 40px;
+  padding-top: 14px;
   flex-direction: column;
   align-items: center;
   background-color: white;
   box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
 }
-h3 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+input {
+  width: 150px;
+}
+.ifexpr {
+  height: 140px;
+}
+textarea {
+  resize: none;
+}
+.output {
+  margin-top: 12px;
+}
+.else {
+  margin-top: 12px;
 }
 .run {
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-  width: 200px;
+
   background-image: linear-gradient(
     to right,
     #1fa2ff 0%,

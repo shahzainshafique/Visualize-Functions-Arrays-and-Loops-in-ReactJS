@@ -1,13 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Function from "./components/Function";
+import Loop from "./components/Loop";
+import Arrays from "./components/Arrays";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Ifelse from "./components/Ifelse";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/function" element={<Function />} />
+        <Route path="/loop" element={<Loop />} />{" "}
+        <Route path="/ifelse" element={<Ifelse />} />{" "}
+        <Route path="/array" element={<Arrays />} />{" "}
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

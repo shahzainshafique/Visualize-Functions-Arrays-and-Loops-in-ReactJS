@@ -1,0 +1,127 @@
+.fullcontainer {
+  padding-top: 37px;
+  margin-top: -7px;
+  background: #9bdfff;
+  height: 640px;
+  font-size: 17px;
+}
+.fullcontent {
+  width: 600px;
+  height: 600px;
+  margin-left: 30%;
+  display: flex;
+  padding-top: 14px;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+}
+.array {
+  margin-left: 45px;
+  margin-bottom: 25px;
+}
+#top-label {
+  margin-left: 3rem;
+}
+.arr-btn {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  margin: 15px;
+  padding: 10px 45px;
+  padding-left: -14px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  align-items: center;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  transition: all 0.5s;
+  width: 150px;
+}
+.arr-btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.arr-btn-clr {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  margin: 15px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 17px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+  width: 75px;
+}
+.arr-btn-clr:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.push {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.pop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+.length {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+.map {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+.index {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+.op {
+  height: 3rem;
+  margin-top: 40px !important;
+}
